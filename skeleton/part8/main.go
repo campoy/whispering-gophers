@@ -19,7 +19,7 @@ import (
 	"os"
 	"sync"
 
-	"code.google.com/p/whispering-gophers/util"
+	"github.com/campoy/whispering-gophers/util"
 )
 
 var (

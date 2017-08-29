@@ -10,7 +10,7 @@ import (
 	"testing"
 )
 
-const serverPath = "code.google.com/p/whispering-gophers/proxy/server"
+const serverPath = "github.com/campoy/whispering-gophers/proxy/server"
 
 func TestIntegration(t *testing.T) {
 	dir, err := ioutil.TempDir("", "proxy-test")

@@ -1,5 +1,5 @@
 // The server command is a multiplexer service for proxied TCP connections.
-// Its clients access it through the code.google.com/p/whispering-gophers/proxy package.
+// Its clients access it through the github.com/campoy/whispering-gophers/proxy package.
 package main
 
 import (

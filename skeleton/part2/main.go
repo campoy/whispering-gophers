@@ -7,7 +7,7 @@
 // connection.
 //
 // You can test this program by installing and running the dump program:
-// 	$ go get code.google.com/p/whispering-gophers/util/dump
+// 	$ go get github.com/campoy/whispering-gophers/util/dump
 // 	$ dump -listen=localhost:8000
 // And in another terminal session, run this program:
 // 	$ part2 -dial=localhost:8000

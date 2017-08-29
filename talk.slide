@@ -33,7 +33,7 @@ This is not an introduction to the Go Programming Language;
 
 Create a workspace (see [[http://golang.org/doc/code.html]]) and install the support libraries:
 
-	$ go get code.google.com/p/whispering-gophers/hello
+	$ go get github.com/campoy/whispering-gophers/hello
 	$ $GOPATH/bin/hello
 	It works!
 
@@ -47,7 +47,7 @@ To write Go code you need a workspace.  Create one now if you have not already.
 
 Build and install a `hello` example program:
 
-	$ go get code.google.com/p/whispering-gophers/hello
+	$ go get github.com/campoy/whispering-gophers/hello
 
 This installs the `hello` binary to `$GOPATH/bin`.
 
@@ -70,7 +70,7 @@ There is also a `solution` directory that contains the finished programs—only 
 
 Visit
 
-.link http://code.google.com/p/whispering-gophers
+.link http://github.com/campoy/whispering-gophers
 
 for code samples and support libraries.
 
@@ -312,7 +312,7 @@ To complete our program, we need to find that IP.
 
 * Obtaining the listener address (2/2)
 
-The [[http://godoc.org/code.google.com/p/whispering-gophers/util][`"code.google.com/p/whispering-gophers/util"`]] package provides a `Listen` function that binds to a random port on the first available public interface.
+The [[http://godoc.org/github.com/campoy/whispering-gophers/util][`"github.com/campoy/whispering-gophers/util"`]] package provides a `Listen` function that binds to a random port on the first available public interface.
 
 .play talk/code/listen-addr-util.go /import/,$
 
@@ -320,7 +320,7 @@ The [[http://godoc.org/code.google.com/p/whispering-gophers/util][`"code.google.
 * Part 5: sending the listen address (recap)
 
 - Add an `Addr` field to the `Message` struct,
-- Import `"code.google.com/p/whispering-gophers/util"`,
+- Import `"github.com/campoy/whispering-gophers/util"`,
 - Use `util.Listen` instead of `net.Listen`,
 - Store the listen address string in a global variable named `self`,
 - When sending messages, put the listen address in the `Addr` field.
@@ -446,7 +446,7 @@ Now, when constructing `Message` values, populate the `ID` field with a random s
 
 * Generating random strings
 
-Use the [[http://godoc.org/code.google.com/p/whispering-gophers/util/#RandomID][`util.RandomID`]] function to generate a random string.
+Use the [[http://godoc.org/github.com/campoy/whispering-gophers/util/#RandomID][`util.RandomID`]] function to generate a random string.
 
 .play talk/code/randomid.go
 

@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"code.google.com/p/go.net/websocket"
-	"code.google.com/p/whispering-gophers/util"
+	"github.com/campoy/whispering-gophers/util"
+	"golang.org/x/net/websocket"
 )
 
 var (
