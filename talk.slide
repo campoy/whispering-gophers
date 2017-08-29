@@ -22,8 +22,8 @@ The final goal is to build a "whispernet": a peer to peer mesh network for trans
 
 You must have these tools installed and working:
 
-- Go 1.1 (see [[http://golang.org/doc/install]])
-- Mercurial (see [[http://mercurial.selenic.com]])
+- Go (see [[http://golang.org/doc/install]])
+- git (see [[https://git-scm.com/downloads]])
 
 This is not an introduction to the Go Programming Language;
 *some*experience*writing*Go*code*is*required*. To learn Go:
@@ -76,7 +76,7 @@ for code samples and support libraries.
 
 These slides are available at:
 
-.link http://whispering-gophers.appspot.com
+.link https://talks.godoc.org/github.com/campoy/whispering-gophers/talk.slide
 
 
 * Part 1: reading and writing
