@@ -51,7 +51,7 @@ func TestPeers(t *testing.T) {
 	select {
 	case m := <-chA:
 		if m.Body != "foo" {
-			t.Fatal("received message %q, want %q", m.Body, "foo")
+			t.Fatalf("received message %q, want %q", m.Body, "foo")
 		}
 	case <-done:
 		t.Fatal(`didn't receive message on "a" channel`)
